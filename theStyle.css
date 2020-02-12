@@ -8,30 +8,4 @@ h3 {
     text-decoration-style: dotted;
     text-decoration-color: beige;
     text-align: center;
-
-}
-main { 
-
-    background-color:rgb(255, 217, 0);
-    border-color: white;
-    border-style: dotted;
-    border-radius: 5vh;
-    text-align: center;
-    line-height: 10vh;
-    font-size: 20vh;
-    letter-spacing: 15vh;
-}
-
-
-.styled {
-    border:0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size:5vh;
-    text-align: center;
-    border-radius: 10px;
-    background-color: transparent;
-}
-p{
-    color: black;
 }
