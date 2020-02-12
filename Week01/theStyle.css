@@ -3,7 +3,7 @@ body {
     
   }
 h3 { 
-    font-size: 150px;
+    font-size: 100px;
     text-decoration: line-through;
     text-decoration-style: dotted;
     text-decoration-color: beige;
@@ -12,14 +12,14 @@ h3 {
 }
 main { 
 
-    background-color:rgb(255, 217, 0);
+    font-size: 25px;
+
+    background-color:rgb(232, 245, 248);
     border-color: white;
     border-style: dotted;
     border-radius: 5vh;
     text-align: center;
-    line-height: 10vh;
-    font-size: 20vh;
-    letter-spacing: 15vh;
+    
 }
 
 
