@@ -1,0 +1,47 @@
+body {
+  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(https://images.unsplash.com/photo-1519501025264-65ba15a82390?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  
+}
+h3 { 
+  font-size: 150px;
+  text-decoration: line-through;
+  text-decoration-style: dotted;
+  text-decoration-color: beige;
+  text-align: center;
+}
+button {
+  font-size: 40px;
+  border: double 2px;
+  border-radius: 5px;
+background-color:transparent;
+float:right;
+  margin: 50px;
+
+}
+
+button div {
+  border: solid 10px;
+}
+
+ 
+#pic{
+    height: 500px;
+    border: 5px;
+    border-radius: 2px;
+    border-style: dotted;
+    border-color: cornflowerblue;
+    
+
+}
+main{
+  text-align: center;
+  font-size: 25px;
+}
+p{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  
+  
+}

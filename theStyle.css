@@ -9,3 +9,27 @@ h3 {
     text-decoration-color: beige;
     text-align: center;
 }
+button {
+  font-size: 40px;
+  border: double 2px;
+  border-radius: 5px;
+background-color:transparent;
+
+  margin: 50px;
+}
+
+button div {
+  border: solid 10px;
+}
+p{
+  text-align: center;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  
+}
