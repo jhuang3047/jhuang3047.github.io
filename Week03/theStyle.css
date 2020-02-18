@@ -35,3 +35,25 @@ main {
 p{
     color: black;
 }
+h1{
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: transparent;
+    height: 10vh;
+    float: center;
+}
+button {
+    font-size: 40px;
+    border: double 2px;
+    border-radius: 5px;
+  background-color:transparent;
+  
+    margin: 50px;
+  }
+  
+  button div {
+    border: solid 10px;
+  }
+

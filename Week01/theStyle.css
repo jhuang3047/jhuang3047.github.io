@@ -10,7 +10,7 @@ h3 {
     text-align: center;
 
 }
-main { 
+p { 
 
     font-size: 25px;
 
@@ -22,16 +22,24 @@ main {
     
 }
 
-
-.styled {
-    border:0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size:5vh;
+h1{
     text-align: center;
-    border-radius: 10px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     background-color: transparent;
+    height: 10vh;
+    float: center;
 }
-p{
-    color: black;
-}
+button {
+    font-size: 40px;
+    border: double 2px;
+    border-radius: 5px;
+  background-color:transparent;
+  
+    margin: 50px;
+  }
+  
+  button div {
+    border: solid 10px;
+  }
