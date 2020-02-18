@@ -2,7 +2,7 @@ body {
     background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(https://images.unsplash.com/photo-1519501025264-65ba15a82390?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
     
   }
-h3 { 
+.dot { 
     font-size: 150px;
     text-decoration: line-through;
     text-decoration-style: dotted;
