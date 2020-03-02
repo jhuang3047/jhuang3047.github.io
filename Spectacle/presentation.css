@@ -1,0 +1,86 @@
+h1 {
+    background-color: bisque; 
+    font-size: 100px;
+    text-align: center;
+  }
+  h2{
+    
+    font-size: 50px;
+    text-align: center;
+  }
+  body{
+      background-color: lavenderblush;
+  }
+  button {
+    font-size: 40px;
+    border: double 2px;
+    border-radius: 5px;
+  background-color:transparent;
+  float:right;
+    margin: 50px;
+  
+  }
+  
+  button div {
+    border: solid 10px;
+  }
+  
+   
+  #pic{
+      height: 500px;
+      width: 500px;
+   
+      
+  
+  }
+  main{
+   
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+  .front{
+      height:600px;
+    display:flex;
+    align-items: center;
+      background-image: url(https://miro.medium.com/max/600/0*Shjk1YB9oePtU9V0.jpg);
+      background-position: left top;
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  }
+  .quote{
+      display:flex;
+      align-items: center;
+
+height:400px;
+    
+    font-size: 25px;
+    background-image: url(https://media2.giphy.com/media/gLbnKcIiWdnPymA4Bp/giphy.gif),
+    url(https://static01.nyt.com/images/2017/05/02/well/02phonelove/02phonelove-articleLarge.gif);
+      
+  background-position: left top, left bottom;
+  background-repeat: repeat-x,repeat-x; 
+  background-size: 100px 100px;
+  }
+  .quote2{
+    display:flex;
+    align-items: center;    
+    height:400px;
+     font-size: 25px;
+        background-image: url(https://media.giphy.com/media/3ohhwBo4gMSdzmjJaU/giphy.gif),
+        url(https://media.giphy.com/media/3ohhwBgHzNoYL6Ntra/giphy.gif);
+          
+        background-position: right top, left bottom;
+        background-repeat: repeat-x,repeat-x; 
+        background-size: 100px 100px;
+      }
+  
+  p{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row-reverse;
+    align-items: center;
+    height: 10vh;
+    
+    
+  }
