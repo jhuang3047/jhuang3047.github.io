@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+img 
+{
+width: 600px;
+height:1000px
+}
+main
+{
+display: flex;
+justify-content: center;
+}
+a{
+    display:flex;
+    
+    flex-direction: row-reverse;
+    
+    
+}
+
