@@ -1,0 +1,129 @@
+nav{
+display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 10vh;
+    background-color: rgb(199, 215, 238);
+}
+.thisItem a {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    padding: 2vw;
+    text-decoration: none;
+}
+body{
+        
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url(sprinkles.png);
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+main{
+
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    text-align: center;
+    flex-direction: column;
+   
+}
+#Name{
+ height:200px;
+ width:400px;
+}
+#supplier{
+    height:400px;
+    width:400px;
+   }
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+
+}
+.icecream{
+ 
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+#pics{
+    height:200px;
+    width:200px;
+}
+h1{
+    text-align: center;
+}
+#dividing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#left{
+width: 500px;
+height: 700px;
+}
+#right{
+    width: 500px;
+    height: 700px;
+    }
+    
+#left1{
+        width: 500px;
+        height: 900px;
+        }
+#right1{
+        width: 500px;
+         height: 900px;
+            }
+ #left2{
+ width: 500px;
+ height: 400px;
+}
+#right2{
+      width: 500px;
+    height: 400px;
+                    }
+#family{
+    width:700px;
+    height:400px;
+}
+h2{
+    
+text-align: left;
+}
+h3{
+    text-align: left;
+    font-weight: lighter;
+}
+h4{
+    text-align: center;
+    font-weight: lighter;
+    font-size: large;
+}
+a:visited {
+    color: gray
+  }
+  
+
+  a:hover {
+    font-size: 30px;
+  }
+  form{
+      display:flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      text-align: left;
+  }
+
+  
