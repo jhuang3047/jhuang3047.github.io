@@ -2,7 +2,7 @@ nav{
 display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Mali' ;
     height: 10vh;
     background-color: rgb(199, 215, 238);
 }
@@ -15,9 +15,9 @@ display: flex;
 }
 body{
         
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url(sprinkles.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url(Images/sprinkles.png);
    
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Mali' ;
     
 }
 main{
@@ -29,13 +29,23 @@ main{
     flex-direction: column;
    
 }
+.google {
+    text-decoration: none;
+    padding: none;
+    color: black;
+}
+.google a:hover{
+    font-size: 5vh;
+}
+
+
 #Name{
- height:200px;
- width:400px;
+ height:26vh;
+ width:52vh;
 }
 #supplier{
-    height:400px;
-    width:400px;
+    height:52vh;
+    width:52vh;
    }
 p {
   display: flex;
@@ -45,7 +55,8 @@ p {
     text-align: center;
     padding: 0;
     margin: 0vh;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Mali' ;
+    font-size: 3vh;
 
     
 
@@ -57,8 +68,8 @@ p {
     flex-direction:column;
 }
 #pics{
-    height:200px;
-    width:200px;
+    height:90vh;
+    width:75vh;
 }
 h1{
     text-align: center;
@@ -68,42 +79,52 @@ h1{
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
+    
 }
 #left{
-width: 500px;
-height: 700px;
+width: 40vw;
+height: 80vh;
 }
 #right{
-    width: 500px;
-    height: 700px;
+    width:40vw;
+    height: 80vh;
     }
     
 #left1{
-        width: 500px;
-        height: 900px;
+        width:40vw;
+        height: 110vh;
         }
 #right1{
-        width: 500px;
-         height: 900px;
-            }
+    width: 40vw;
+    height: 110vh
+}
  #left2{
- width: 500px;
- height: 400px;
+ width: 40vw;
+ height: 40vh;
 }
 #right2{
-      width: 500px;
-    height: 400px;
-                    }
+    width: 40vw;
+    height: 40vh;
+}
+#left3{
+  width: 20vw;
+  height: 60vh;
+ }
+ #right3{
+     width: 20vw;
+     height: 60vh;
+                     }
+                  
 #family{
-    width:700px;
-    height:400px;
+    width:120vh;
+    height:80vh;
 }
 h2{
     
-text-align: left;
+text-align:center;
 }
 h3{
-    text-align: left;
+    text-align: center;
     font-weight: lighter;
 }
 h4{
@@ -111,13 +132,13 @@ h4{
     font-weight: lighter;
     font-size: large;
 }
-a:visited {
+.thisItem a:visited {
     color: gray
   }
   
 
-  a:hover {
-    font-size: 30px;
+ .thisItem a:hover {
+    font-size: 4vh;
   }
   form{
       display:flex;
@@ -125,5 +146,104 @@ a:visited {
       flex-direction: column;
       text-align: center;
   }
+  * {box-sizing:border-box}
 
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
   
+
+  .mySlides {
+    display: hide;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+   .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+  
+
+   
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+label{
+      text-align: left;
+  }
+
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .container2 {
+    background-color:  #f2f2f2;;
+  }
+
+  #submit{
+    width: 20vw;
+    height: 40vh;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: none;
+  }

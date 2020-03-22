@@ -3,8 +3,11 @@
 	<head>
 		<title> What's The Scooooop</title>
     <link rel="stylesheet" type="text/css" href="midterm.css">
-    <link rel="shortcut icon" type="img/png" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="midterm3.css">
+    <link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="img/png" href="Images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
     </head>
     <body>
@@ -21,45 +24,66 @@
 
       
         <main>       
-            <h1>We Love Feedback!</h1>
-             <form class="w3-container">
-
-            <label class="w3-text-blue"><b>Name*</b></label>
-            <input class="w3-input w3-border" type="text">
-             
-            <label class="w3-text-blue"><b>Email Address*</b></label>
-            <input class="w3-input w3-border" type="text">
-
-            <label class="w3-text-blue"><b>Subject*</b></label>
-            <input class="w3-input w3-border" type="text">
             
-            <label class="w3-text-blue"><b>Message*</b></label>
-            <input class="w3-input w3-border" type="text">
+            <div class="container">
+              <h1>We Love Feedback!</h1>
+              <form action="action_page.php">
+            
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="John">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Doe">
+            
+                <label for="lname">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="whatsthescooooop@gmail.com">
+            
+
+            
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+            
+ 
+            
+              
+          
        
              <h1>How'd You Hear About Us?</h1>
             
-            <input class="w3-check" type="checkbox" >
-            <label>Instagram</label>
+             <label class="container">Instagram
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span>
+            </label>
             
-            <input class="w3-check" type="checkbox">
-            <label>Facebook</label>
+            <label class="container">Facebook
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
             
-            <input class="w3-check" type="checkbox" >
-            <label>Yelp</label>
+            <label class="container">Yelp
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            
+            <label class="container">Food Blog
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
 
-            <input class="w3-check" type="checkbox" >
-            <label>Friend</label>
-            
-            <input class="w3-check" type="checkbox">
-            <label>Passing By</label>
-            
-            <input class="w3-check" type="checkbox" >
-            <label>I live in the neighborhood</label>
+            <label class="container">Walking By
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Friend
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
 
         </form>
            
             
-<a href="https://jhuang3047.github.io/Midterm/submit2.html"><button>Submit</button></a>
+<a class="btn" href="https://jhuang3047.github.io/Midterm/submit2.html">Submit</a>
 
         </main>
 </body>
