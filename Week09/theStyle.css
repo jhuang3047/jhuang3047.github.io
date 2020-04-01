@@ -1,0 +1,14 @@
+button {
+    padding: 50px
+
+   }
+   
+   button:hover {
+    border: 5px solid yellow;
+   }
+
+body{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
