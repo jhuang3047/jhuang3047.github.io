@@ -16,7 +16,7 @@ const theButton3 = document.querySelector("#thirdButton");
 theButton.addEventListener('click',isClicked);
 function isClicked(){
     console.log("clicked");
-   
+    theTxt.textContent = "By Marshall McLuhan & Quentin Fiore" ;
 
     theBody.style.backgroundImage= "url(https://i.pinimg.com/564x/da/7a/62/da7a629b3f86fadc7e5babfb15ad4116.jpg)" ;
    
