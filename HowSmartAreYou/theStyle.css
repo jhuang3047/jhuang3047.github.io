@@ -1,0 +1,25 @@
+body{
+    background-color: whitesmoke;
+}
+img 
+{
+width: 700px;
+height:1000px
+}
+main
+{
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+
+
+#pic{
+    display: flex;
+    
+    width: 500px;
+    height: 300px;
+}
+h1{
+    text-align: center;
+}
