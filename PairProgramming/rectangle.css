@@ -3,21 +3,32 @@
     height: 12vw;
     
     background-color: yellow;
-
+    position: relative;
+    left: 10px;
+    top: 250px;
 }
 #rectanglewrongButton1{
     background-color: rgb(255, 230, 0);
    padding: 10vw;
+   position: relative;
+left: 10px;
+top: 50px;
 }
 #rectanglewrongButton2{
     background-color: rgb(212, 233, 179);
     width: 15vw;
     height: 10vh;
+    position: relative;
+left: 10px;
+top: 100px;
 }
 #rectanglewrongButton3{
     background-color: orange;
     width: 20vw;
     height: 23vw;
+    position: relative;
+    left: 100px;
+    top: 300px;
 }
 main{
     display: flex;
