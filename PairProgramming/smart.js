@@ -1,4 +1,4 @@
-htmlelement.onclick() = function(){
+
     
 var theScore = 0 ;
 var wrongButton = document.getElementById("wrongButton","squarewrongButton1","squarewrongButton2","squarewrongButton3","circlewrongButton1","circlewrongButton2","circlewrongButton3","rectanglewrongButton1","rectanglewrongButton2","rectanglewrongButton3");
@@ -21,5 +21,5 @@ if (theScore == 3) {
 }
 if (theScore >=0 || theScore <=2) {
     theTxt.textContent = "You are below average intelligence!";
-}
+
 }
