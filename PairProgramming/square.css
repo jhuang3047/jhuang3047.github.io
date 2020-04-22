@@ -1,0 +1,28 @@
+#squarecorrectButton{
+    padding: 10vh;
+    background-color: yellow;
+
+}
+#squarewrongButton1{
+    background-color: blue;
+    width: 15vw;
+    height: 10vh;
+}
+#squarewrongButton2{
+    background-color: green;
+    width: 15vw;
+    height: 10vh;
+}
+#squarewrongButton3{
+    background-color: orange;
+    width: 20vw;
+    height: 23vw;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+}

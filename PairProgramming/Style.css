@@ -1,0 +1,28 @@
+#correctButton{
+    padding: 5vw;
+    
+
+}
+#wrongButton{
+    padding:5vw;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+img{
+    width: 98vw;
+    height:98vh;
+    display: flex;
+    justify-content: center;
+}
+#smart{
+    padding: 1vw;
+}
+h1{
+    text-align: center;
+}
+h2{text-align: center;}
+    

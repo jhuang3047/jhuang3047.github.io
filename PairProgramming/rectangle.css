@@ -1,0 +1,29 @@
+#rectanglecorrectButton{
+    width: 15vw;
+    height: 12vw;
+    
+    background-color: yellow;
+
+}
+#rectanglewrongButton1{
+    background-color: rgb(255, 230, 0);
+   padding: 10vw;
+}
+#rectanglewrongButton2{
+    background-color: rgb(212, 233, 179);
+    width: 15vw;
+    height: 10vh;
+}
+#rectanglewrongButton3{
+    background-color: orange;
+    width: 20vw;
+    height: 23vw;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+}

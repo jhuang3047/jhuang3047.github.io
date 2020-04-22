@@ -1,0 +1,36 @@
+#circlecorrectButton{
+    
+    background-color: yellow;
+padding: 10vh;
+width: 10vw;
+height: 10vh;
+border-radius: 75px;
+border-color: none;
+}
+#circlewrongButton1{
+    background-color: purple;
+    padding: 10vh;
+width: 20vw;
+height: 10vw;
+border-radius: 65px;
+}
+#circlewrongButton2{
+    background-color: green;
+    width: 15vw;
+    height: 14vw;
+    border-radius: 80px;
+}
+#circlewrongButton3{
+    background-color: orange;
+    width: 20vw;
+    height: 23vw;
+    border-radius: 120px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+}
