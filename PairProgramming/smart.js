@@ -12,14 +12,16 @@ correctButton.click(function(){
 //     theScore =+0
 // })
 
-function average(){
+function above(){
 if (theScore <= 4) {
     head2.text = ('You are above average intelligence!')
 
-}
+}}
+function average(){
 if (theScore ==3) {
     head2.text = ('You are of average intelligence!')
-}
+}}
+function below(){
 if (theScore >=0 || theScore <=2) {
     head2.text = ('You are below average intelligence!')
 
