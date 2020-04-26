@@ -1,14 +1,13 @@
 
 
-var theScore = x ;
-var x = 5;
+var theScore = 5;
 var wrongButton1 = $("#wrongButton");
 wrongButton1.onclick = function(){
-    theScore = x - 1
+    theScore = theScore - 1
 }
 var wrongButton2 =$("#squarewrongButton1");
 wrongButton2.onclick = function(){
-    theScore = x - 1
+    theScore = theScore - 1
 }
 var wrongButton3 =$("#squarewrongButton2")
 wrongButton3.onclick = function(){
@@ -46,10 +45,10 @@ wrongButton10.onclick = function(){
 //var correctButton =$("#correctButton","#squarecorrectButton","#rectanglecorrectButton","#circlecorrectButton");
 var head2 = $("#head2");
 
-var gameEnd= $("#startButton").click(function(){
-    x = 5 ;
-    theScore = x ;
-})
+// var gameEnd= $("#startButton").click(function(){
+//     x = 5 ;
+//     theScore = x ;
+// })
 var gameStart= $("endButton").click(function(){
     x = 5 ;
     theScore = x ;
