@@ -2,34 +2,34 @@
 
 var theScore = x ;
 var x = 5;
-var wrongButton1 = $("#wrongButton").onclick(function(){
+var wrongButton1 = $("#wrongButton").click(function(){
     theScore = x - 1
 })
-var wrongButton2 =$("#squarewrongButton1").onclick(function(){
+var wrongButton2 =$("#squarewrongButton1").click(function(){
     theScore = x - 1
 })
-var wrongButton3 =$("#squarewrongButton2").onclick(function(){
+var wrongButton3 =$("#squarewrongButton2").click(function(){
     theScore = x - 1
 })
-var wrongButton4= $("#squarewrongButton3").onclick(function(){
+var wrongButton4= $("#squarewrongButton3").click(function(){
     theScore = x - 1
 })
-var wrongButton5=$("#circlewrongButton1").onclick(function(){
+var wrongButton5=$("#circlewrongButton1").click(function(){
     theScore = x - 1
 })
-var wrongButton6=$("#circlewrongButton2").onclick(function(){
+var wrongButton6=$("#circlewrongButton2").click(function(){
     theScore = x - 1
 })
-var wrongButton7=$("#circlewrongButton3").onclick(function(){
+var wrongButton7=$("#circlewrongButton3").click(function(){
     theScore = x - 1
 })
-var wrongButton8=$("#rectanglewrongButton1").onclick(function(){
+var wrongButton8=$("#rectanglewrongButton1").click(function(){
     theScore = x - 1
 })
-var wrongButton9=$("#rectanglewrongButton2").onclick(function(){
+var wrongButton9=$("#rectanglewrongButton2").click(function(){
     theScore = x - 1
 })
-var wrongButton10=$("#rectanglewrongButton3").onclick(function(){
+var wrongButton10=$("#rectanglewrongButton3").click(function(){
     theScore = x - 1
 })
 //var correctButton =$("#correctButton","#squarecorrectButton","#rectanglecorrectButton","#circlecorrectButton");
