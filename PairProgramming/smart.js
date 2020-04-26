@@ -6,23 +6,23 @@ var correctButton =$("#correctButton","#squarecorrectButton","#rectanglecorrectB
 var head2 = $("#head2");
 
 correctButton.click(function(){
-    theScore = +1
+    theScore + 1
 })
 // wrongButton.click(function(){
 //     theScore =+0
 // })
 
 function above(){
-if (theScore <= 4) {
+if (theScore >= 4) {
     head2.text = ('You are above average intelligence!')
 
 }}
 function average(){
-if (theScore ==3) {
+if (theScore === 3) {
     head2.text = ('You are of average intelligence!')
 }}
 function below(){
-if (theScore >=0 || theScore <=2) {
+if (theScore  <= 2) {
     head2.text = ('You are below average intelligence!')
 
 }}
