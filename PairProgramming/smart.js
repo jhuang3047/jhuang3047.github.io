@@ -46,7 +46,14 @@ wrongButton10.onclick = function(){
 //var correctButton =$("#correctButton","#squarecorrectButton","#rectanglecorrectButton","#circlecorrectButton");
 var head2 = $("#head2");
 
-
+var gameEnd= $("#startButton").click(function(){
+    x = 5 ;
+    theScore = x ;
+})
+var gameStart= $("endButton").click(function(){
+    x = 5 ;
+    theScore = x ;
+})
 
 function above(){
 if (theScore >= 4) {
