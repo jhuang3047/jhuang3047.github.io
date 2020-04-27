@@ -1,81 +1,92 @@
+console.log("smart");
 
+let theScore = 5;
 
-theScore = 5;
-
-var wrongButton1 = $("#wrongButton");
-wrongButton1.onclick = function(){
-    alert(theScore);
+const wrongButton1 = document.querySelector("#wrongButton"); 
+wrongButton1.addEventListener('click',isClicked);
+function isClicked(){
+    console.log("clicked");
     theScore = theScore - 1
     
 }
-var wrongButton2 =$("#squarewrongButton1");
-wrongButton2.onclick = function(){
-    alert(theScore);
+const wrongButton2 = document.querySelector("#squarewrongButton1");
+wrongButton1.addEventListener('click',isClicked);
+function isClicked(){
+    console.log("clicked");
     theScore = theScore - 1
 }
-var wrongButton3 =$("#squarewrongButton2")
-wrongButton3.onclick = function(){
-    alert(theScore);
+const wrongButton3 = document.querySelector("#squarewrongButton2")
+wrongButton1.addEventListener('click',isClicked);
+function isClicked(){
+    console.log("clicked");
     theScore = theScore - 1
 }
-var wrongButton4= $("#squarewrongButton3")
-wrongButton4.onclick = function(){
-    alert(theScore);
+const wrongButton4 = document.querySelector("#squarewrongButton3")
+wrongButton4.addEventListener('click',isClicked);
+function isClicked(){
+    console.log("clicked");
     theScore = theScore - 1
 }
-var wrongButton5=$("#circlewrongButton1")
-wrongButton5.onclick = function(){
-    alert(theScore);
-    theScore =theScore - 1
-}
-var wrongButton6=$("#circlewrongButton2")
-wrongButton6.onclick = function(){
-    alert(theScore);
+const wrongButton5 = document.querySelector("#circlewrongButton1")
+wrongButton5.addEventListener('click',isClicked);
+function isClicked(){
+    console.log("clicked");
     theScore = theScore - 1
 }
-var wrongButton7=$("#circlewrongButton3");
-wrongButton7.onclick = function(){
-    alert(theScore);
+const wrongButton6 = document.querySelector("#circlewrongButton2")
+wrongButton6.addEventListener('click',isClicked);
+function isClicked(){
+    console.log("clicked");
     theScore = theScore - 1
 }
-var wrongButton8=$("#rectanglewrongButton1");
-wrongButton8.onclick = function(){
-    alert(theScore);
+const wrongButton7= document.querySelector("#circlewrongButton3");
+wrongButton7.addEventListener('click',isClicked);
+function isClicked(){
+    console.log("clicked");
+    theScore = theScore - 1
+}
+const wrongButton8 = document.querySelector("#rectanglewrongButton1");
+wrongButton8.addEventListener('click',isClicked);
+function isClicked(){
+    console.log("clicked");
     theScore = theScore - 1
 
 }
-var wrongButton9=$("#rectanglewrongButton2");
-wrongButton9.onclick = function(){
-    alert(theScore);
+const wrongButton9 = document.querySelector("#rectanglewrongButton2");
+wrongButton9.addEventListener('click',isClicked);
+function isClicked(){
+    console.log("clicked");
     theScore = theScore - 1
 }
-var wrongButton10=$("#rectanglewrongButton3");
-wrongButton10.onclick = function(){
-    alert(theScore);
+const wrongButton2 = document.querySelector("#rectanglewrongButton3");
+wrongButton10.addEventListener('click',isClicked);
+function isClicked(){
+    console.log("clicked");
     theScore = theScore - 1
 }
 //var correctButton =$("#correctButton","#squarecorrectButton","#rectanglecorrectButton","#circlecorrectButton");
-var head2 = $("#head2");
+const head2 = docunent.querySelector("#head2");
 
 // var gameEnd= $("#startButton").click(function(){
 //     x = 5 ;
 //     theScore = x ;
 // })
-var gameStart= $("startButton").click(function(){
-   
-    alert(theScore);
-})
+const gameStart= document.querySelector("startButton")
+startButton.addEventListener('click',isClicked);
+function isClicked(){
+    theScore = 5
+}
 
 function above(){
 if (theScore >= 4) {
-    head2.text('You are a genius!')
+    head2.txtContent= "You are a genius!";
 
 }
 else if (theScore == 3) {
-    head2.text('You are of average intelligence!')
+    head2.txtContent ="You are of average intelligence";
 }
 
 else if (theScore <= 2) {
-    head2.text('You are below average intelligence!')
+    head2.txtContent= "You are below average intelligence!";
 
 }}
