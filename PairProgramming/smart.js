@@ -1,9 +1,6 @@
 
 
-var theScore = "global" ;
-var below;
-var above;
-var average;
+theScore = 5;
 
 var wrongButton1 = $("#wrongButton");
 wrongButton1.onclick = function(){
