@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+body{
+    background-image: url(howsmartareyou.png);
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+    
+}
