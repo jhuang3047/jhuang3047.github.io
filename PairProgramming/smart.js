@@ -1,6 +1,9 @@
 
 
 var theScore = "global" ;
+var below;
+var above;
+var average;
 
 var wrongButton1 = $("#wrongButton");
 wrongButton1.onclick = function(){
@@ -51,8 +54,8 @@ var head2 = $("#head2");
 //     theScore = x ;
 // })
 var gameStart= $("endButton").click(function(){
-    x = 5 ;
-    theScore = x ;
+   
+    theScore = 5;
 })
 
 function above(){
