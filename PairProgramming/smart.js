@@ -53,7 +53,7 @@ var head2 = $("#head2");
 //     x = 5 ;
 //     theScore = x ;
 // })
-var gameStart= $("endButton").click(function(){
+var gameStart= $("startButton").click(function(){
    
     theScore = 5;
 })
