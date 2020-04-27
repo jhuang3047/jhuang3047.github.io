@@ -62,13 +62,12 @@ function above(){
 if (theScore >= 4) {
     head2.text('You are a genius!')
 
-}}
-function average(){
-if (theScore === 3) {
+}
+else if (theScore == 3) {
     head2.text('You are of average intelligence!')
-}}
-function below(){
-if (theScore  <= 2) {
+}
+
+else if (theScore <= 2) {
     head2.text('You are below average intelligence!')
 
 }}
