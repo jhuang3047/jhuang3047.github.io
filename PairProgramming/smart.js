@@ -1,5 +1,5 @@
 console.log("smart");
-
+const theScore; 
 let theScore = 5;
 
 const wrongButton1 = document.querySelector("#wrongButton"); 
