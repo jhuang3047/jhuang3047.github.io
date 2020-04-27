@@ -10,22 +10,22 @@ wrongButton2.onclick = function(){
 
     theScore--;
 }
-var wrongButton3 =$("#squarewrongButton2")
+var wrongButton3 =$("#squarewrongButton2");
 wrongButton3.onclick = function(){
     
     theScore--;
 }
-var wrongButton4= $("#squarewrongButton3")
+var wrongButton4= $("#squarewrongButton3");
 wrongButton4.onclick = function(){
     
     theScore--;
 }
-var wrongButton5=$("#circlewrongButton1")
+var wrongButton5=$("#circlewrongButton1");
 wrongButton5.onclick = function(){
     
     theScore--;
 }
-var wrongButton6=$("#circlewrongButton2")
+var wrongButton6=$("#circlewrongButton2");
 wrongButton6.onclick = function(){
     
     theScore--;
@@ -54,10 +54,11 @@ var head2 = $("#head2");
 //     x = 5 ;
 //     theScore = x ;
 // })
-var gameStart= $("startButton").click(function(){
+var gameStart= $("startButton");
+gameStart.onclick = function(){
    
     theScore = 5;
-})
+}
 
 function above(){
 if (theScore > 3) {
