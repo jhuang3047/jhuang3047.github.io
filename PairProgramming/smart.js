@@ -1,6 +1,6 @@
 console.log("smart");
-const theScore; 
-let theScore = 5;
+const theScore = 5;
+
 
 const wrongButton1 = document.querySelector("#wrongButton"); 
 wrongButton1.addEventListener('click',isClicked);
