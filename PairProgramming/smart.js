@@ -1,7 +1,6 @@
 var head2 = document.querySelector('h2');
 var counter = 0;
     var count =(function(){
-    counter =0;
         return function(){return counter +=1;}
 
     })()
