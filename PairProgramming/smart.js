@@ -1,6 +1,6 @@
 
 
-var theScore = 5;
+theScore = 5;
 
 var wrongButton1 = $("#wrongButton");
 wrongButton1.onclick = function(){
