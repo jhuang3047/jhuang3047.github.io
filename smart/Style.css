@@ -1,3 +1,8 @@
+body{
+    background-image:linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)), url(shapes.jpg);
+    background-position: cover;
+   
+}
 #correctButton{
     width: 20vw;
     height: 10vh;
@@ -125,4 +130,16 @@ position: relative;
     height: 23vw;
     position: relative;
 
+}
+button:hover{
+    background-color: pink;
+}
+button:focus{
+    border-color: blue;
+    border-radius: 1vw;
+
+   
+}
+p{
+    font-size: 2vw;
 }

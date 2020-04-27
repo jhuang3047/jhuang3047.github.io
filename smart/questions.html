@@ -9,22 +9,113 @@
     <link rel="stylesheet" type="text/css" href="Style.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="IQ.js" defer></script>
+    <script src="smart.js" defer></script>
     </head>
-    <p id="carrier">0</p>
+   
     <body>
- 
+ <audio controls autoplay>
+<source src="background_music.mp3" type="audio/mpeg">
+</audio>
+
     <br>
     <main>
-    <h1>What is 2+2/2?</h1>
-    
- <button class="wrongButton">1</button></a>
-  
-       <button class="correctButton">3</button></a>
+<h1>Answer all questions and see your results below!</h1>
 
-            <button class="wrongButton">20</button></a>
+<h2>Correct HTML tag for the largest heading is</h2>
+              
+<button id="wrongButton">head </button></a>
+ <button id="wrongButton">h6</button></a>
+ <button id="wrongButton">heading</button></a>
+ <button onclick ="displaycount()" id="correctButton">h1</button></a>
+
+<br>
+
+<h2>What is 2+2/2?</h2>   
+<button id="wrongButton">1</button></a>
+<button  onclick ="displaycount()" id="correctButton">3</button></a>
+<button id="wrongButton">20</button></a>
+<button id="wrongButton">5</button></a>
+
+    <br>
+<div class="2">
+<h1>Click the square</h1>
+ 
+<button onclick ="displaycount()" id="squarecorrectButton"></button></a>
+<button id="squarewrongButton1"></button></a>
+<button id="squarewrongButton3"></button></a>
+<button id="squarewrongButton2"></button></a>
+        <br>  
+</div>
+
+<h2>Which is the hottest planet?</h2>
+               
+ <button id="wrongButton">Pluto </button></a>
+ <button id="wrongButton">Mercury</button></a>
+<button onclick ="displaycount()" id="correctButton">Venus</button></a>
+<button id="wrongButton">Jupiter</button></a>
+
     
-                <button class="wrongButton">5</button></a>
+
+    <h2>Which of the following is a container?</h2>
+    <button onclick ="displaycount()" id="correctButton">both (b) & (c)</button></a>            
+     <button id="wrongButton">Select </button></a>
+     <button id="wrongButton">Body</button></a>
     
-      
-   
+    <button id="wrongButton">Input</button></a>
+          
+<div class ="3">
+<h1>Click the circle</h1>  
+<button id="circlewrongButton1"></button></a>
+<button id="circlewrongButton2"></button></a>
+<button id="circlewrongButton3"></button></a> 
+<button onclick ="displaycount()" id="circlecorrectButton"></button></a>                      
+<br>
+</div>   
+
+<h2>What does HTML stand for?</h2>
+
+<button id="wrongButton">Hypertext Markup Link   </button></a>
+<button id="wrongButton">Hyperlink Markup Language</button></a>
+<button id="wrongButton">Hypertext Meta Language</button></a>
+<button onclick ="displaycount()" id="correctButton">Hypertext Markup Language</button></a>
+
+<h2>www is based on which model?</h2>
+
+<button id="wrongButton">3-tier   </button></a>
+<button onclick ="displaycount()" id="correctButton">client-server</button></a>
+<button id="wrongButton">local-server</button></a>
+<button id="wrongButton">none</button></a>
+
+</div>
+<br>
+<div class="4">
+<h2>Click the yellow rectangle</h2>
+<button id="rectanglewrongButton1"onclick="displayresult()"></button></a>
+<button onclick ="displaycount()" onclick="displayresult()" id="rectanglecorrectButton"></button></a>
+<button id="rectanglewrongButton3"onclick="displayresult()"></button></a>
+<button id="rectanglewrongButton2"onclick="displayresult()"></button></a>
+</div>
+
+ <h2>What does CSS stand for?</h2>
+    
+    <button id="wrongButton">Cascading Sheets Style   </button></a>
+    <button id="wrongButton">Casting Style Sheets</button></a>
+    <button onclick ="displaycount()" id="correctButton">Cascading Style Sheets</button></a>
+    <button id="wrongButton">Correct Style Sheets</button></a>
+  
+<p id="carrier">0</p>
+<p>Congratulations!
+    <br>
+    0 - 4 = Below Average Intelligence <br>
+    5 = Average  <br>
+    6 - 9 = Above Average Intelligence  <br>
+    10 = Genius 
+</p>
+<p id="result"></p>
+  
+   </main>
+</body>
+
+<a href="https://jhuang3047.github.io/smart/index.html"><button>Try Again</button> </a>
+    
+    </html>
