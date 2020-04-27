@@ -56,7 +56,7 @@ var head2 = $("#head2");
 // })
 var gameStart= $("startButton").click(function(){
    
-    alert(theScore);
+    theScore = 5
 })
 
 function above(){
