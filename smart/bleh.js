@@ -1,11 +1,10 @@
 var head2 = document.querySelector('h2');
-var counter = 0;
     var count =(function(){
-    counter =0;
+    var counter =0;
         return function(){return counter +=1;}
 
     })()
-function displaycount(){
+    function displaycount(){
         document.getElementById("carrier").innerHTML =count();
         }
 function above(){
@@ -21,4 +20,3 @@ function above(){
         head2.text('You are below average intelligence!');
     
     }}
-    
