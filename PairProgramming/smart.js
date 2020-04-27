@@ -10,13 +10,13 @@ function isClicked(){
     
 }
 const wrongButton2 = document.querySelector("#squarewrongButton1");
-wrongButton1.addEventListener('click',isClicked);
+wrongButton2.addEventListener('click',isClicked);
 function isClicked(){
     console.log("clicked");
     theScore = theScore - 1
 }
 const wrongButton3 = document.querySelector("#squarewrongButton2")
-wrongButton1.addEventListener('click',isClicked);
+wrongButton3.addEventListener('click',isClicked);
 function isClicked(){
     console.log("clicked");
     theScore = theScore - 1
@@ -58,14 +58,14 @@ function isClicked(){
     console.log("clicked");
     theScore = theScore - 1
 }
-const wrongButton2 = document.querySelector("#rectanglewrongButton3");
+const wrongButton10 = document.querySelector("#rectanglewrongButton3");
 wrongButton10.addEventListener('click',isClicked);
 function isClicked(){
     console.log("clicked");
     theScore = theScore - 1
 }
 //var correctButton =$("#correctButton","#squarecorrectButton","#rectanglecorrectButton","#circlecorrectButton");
-const head2 = docunent.querySelector("#head2");
+const head2 = docunent.querySelector('h2');
 
 // var gameEnd= $("#startButton").click(function(){
 //     x = 5 ;
