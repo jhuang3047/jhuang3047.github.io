@@ -1,0 +1,214 @@
+#logo{
+   background-image: url(logo.png);
+   width: 10vw;
+   height: 10vw;
+   background-size: contain;
+   border-radius: 75px;
+}
+
+
+body{
+    background-color: black;
+
+
+}
+nav{
+    display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: 'Mali' ;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+
+}
+#pic{
+width: 100%;
+-webkit-filter: grayscale(60%); 
+filter: grayscale(60%);
+
+}
+#pic:hover{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 120%;
+    -webkit-filter: grayscale(0%); 
+filter: grayscale(0%);
+
+}
+.thisItem{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px;
+    border-radius: 10px;
+    border-width: 01px;
+    background-color: white;
+    animation: fadeInAnimation ease 3s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+button:hover{
+    background-color: gray ;
+}
+main{ 
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 4px;
+    animation: fadeInAnimation ease 5s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding:0 3vw ;
+    animation: fadeInAnimation ease 5s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    animation: fadeInAnimation ease 3s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .resume{
+    width: 35vw;
+    margin-left:30vw;
+    margin-top: 0vw;
+
+  }
+  .download{
+      margin-left: 45vw;
+  }
+  #logo1{
+      position: fixed;
+      
+    left: 10vh;
+    width: 50vw;
+    height: 50vw;
+    background-size: cover;
+    border-radius: 50vw;
+    background-image: url(logo.png);
+   
+    
+ }
+ @keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+  .thisItem1{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px;
+    border-radius: 10px;
+    border-width: 01px;
+    background-color: white;
+    position: relative;
+    left: 10vw;
+    top: 20vh;
+    animation: fadeInAnimation ease 2s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+  }
+  .thisItem2{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px;
+    border-radius: 10px;
+    border-width: 01px;
+    background-color: white;
+    position: relative;
+    left: 10vw;
+    top:30vh;
+    animation: fadeInAnimation ease 3s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+  }
+  .thisItem3{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px;
+    border-radius: 10px;
+    border-width: 01px;
+    background-color: white;
+    position: relative;
+    left: 10vw;
+    top:40vh;
+    animation: fadeInAnimation ease 4s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+  }
+  .thisItem4{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px;
+    border-radius: 10px;
+    border-width: 01px;
+    background-color: white;
+    position: relative;
+    left: 10vw;
+    top: 50vh;
+    animation: fadeInAnimation ease 5s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+  }
+  #year{
+    background-color: none;
+    border: none;
+
+    animation: fadeInAnimation ease 4s ;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+    
+  }
+#year{
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  #year:hover{
+font-size:125px;
+  }
+  
+ 
