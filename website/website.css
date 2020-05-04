@@ -1,5 +1,5 @@
 #logo{
-   background-image: url(logo.png);
+   background-image: url(Assets/logo.png);
    width: 10vw;
    height: 10vw;
    background-size: contain;
@@ -123,7 +123,7 @@ main{
     height: 50vw;
     background-size: cover;
     border-radius: 50vw;
-    background-image: url(logo.png);
+    background-image: url(Assets/logo.png);
    
     
  }
