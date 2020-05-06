@@ -1,5 +1,5 @@
 #logo{
-   background-image: url(Assets/logo.png);
+   background-image: url(Assets/Logo.png);
    width: 10vw;
    height: 10vw;
    background-size: contain;
@@ -77,9 +77,7 @@ main{
     flex: 25%;
     max-width: 25%;
     padding:0 3vw ;
-    animation: fadeInAnimation ease 5s ;
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
+    
   }
   
   .column img {
