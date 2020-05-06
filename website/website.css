@@ -220,9 +220,12 @@ font-size:70px;
 
   #cards{
     width:70%;
+    padding-bottom: 5px;
     margin-left: 50px;
     -webkit-filter: grayscale(60%); 
 filter: grayscale(60%);
+border-radius: 15px;
+border-color: black;
   }
   #cards:hover{
    
