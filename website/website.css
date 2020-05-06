@@ -202,15 +202,23 @@ main{
 #year{
     font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: rgba(220, 199, 240, 0.911);;
     text-decoration: none;}
+    #year1{
+      font-size: 60px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: cornflowerblue;
+      text-decoration: none;}
   #project{
   text-align: center;
   }
   #year:hover{
 font-size:70px;
+
   }
-  
+  #year1:hover{
+    font-size:70px;
+  }
   .cards { height: 100%; padding: 0; margin: 0; }
   .card { width: 50%; height: 50%; float: left; }
   #div1 { background: black }
