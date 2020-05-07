@@ -12,11 +12,13 @@ body{
 
 
 }
-nav{
+.nav2 {
     display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        font-family: 'Mali' ;
+    flex-direction: column;
+        justify-content: space-between;
+        
+       
+        font-family: 'Bree Serif', serif;
 }
 
 h1{
@@ -26,7 +28,9 @@ h1{
 
 }
 #pic{
+  position: relative;
 width: 100%;
+z-index: 0;
 -webkit-filter: grayscale(60%); 
 filter: grayscale(60%);
 
@@ -35,24 +39,69 @@ filter: grayscale(60%);
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 120%;
+    z-index: 1;
+    transition-duration: 1.5s;
+    transform: scale(1.2);
     -webkit-filter: grayscale(0%); 
 filter: grayscale(0%);
 
 }
-.thisItem{
+.thisItem5{
     font-size: larger;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 25px;
+    font-family: 'Bree Serif', serif;
+    padding: 15px;
     border-radius: 10px;
-    border-width: 01px;
+    border-width: 0px;
     background-color: white;
     animation: fadeInAnimation ease 3s ;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
+    margin-left:100px;
+  margin-top:-100px;
 }
+.thisItem6{
+  font-size: larger;
+  font-family: 'Bree Serif', serif;
+  padding: 15px;
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: white;
+  animation: fadeInAnimation ease 3s ;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+  margin-left:180px;
+  margin-top:-90px;
+}
+.thisItem7{
+  font-size: larger;
+  font-family: 'Bree Serif', serif;
+  padding: 15px;
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: white;
+  animation: fadeInAnimation ease 3s ;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+  margin-left:320px;
+  margin-top:-80px;
+}
+.thisItem8{
+  font-size: larger;
+  font-family: 'Bree Serif', serif;
+  padding: 15px;
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: white;
+  animation: fadeInAnimation ease 3s ;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+  margin-left: 415px;
+  margin-top:-70px;
+}
+
+
 button:hover{
-    background-color: gray ;
+    background-color: rgb(245, 242, 223) ;
 }
 main{ 
     display: flex;
@@ -66,10 +115,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 10px 4px;
-    animation: fadeInAnimation ease 5s ;
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
+    padding: 10px ;
+  
   }
   
   /* Create four equal columns that sits next to each other */
@@ -77,6 +124,7 @@ main{
     flex: 25%;
     max-width: 25%;
     padding:0 3vw ;
+    padding-bottom: 20px;
     
   }
   
@@ -84,9 +132,7 @@ main{
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-    animation: fadeInAnimation ease 3s ;
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
+
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
@@ -227,22 +273,30 @@ font-size:70px;
   #div4 { background: black }
 
   #cards{
+    position: relative;
     width:70%;
-    padding-bottom: 5px;
+    z-index: 0;
+    padding: 15px;
     margin-left: 50px;
     -webkit-filter: grayscale(60%); 
 filter: grayscale(60%);
-border-radius: 15px;
-border-color: black;
+border-radius: 30px;
+border-color: beige;
+
   }
   #cards:hover{
-   
-    width: 80%;
+    transition-duration: 1.5s;
+	transform: scale(1.3);
+   z-index:1;
+    /* width: 80%; */
     -webkit-filter: grayscale(0%); 
 filter: grayscale(0%);
   }
   #menu{
     width: 50%;
+    position: relative;
+    z-index: 0;
+    filter: grayscale(60%);
   }
   .menu{
     display: flex;
@@ -250,9 +304,131 @@ filter: grayscale(0%);
     justify-items: center;
     align-items: center;
   }
+  #menu:hover{
+    z-index: 1;
+    transition-duration: 1.5s;
+	transform: scale(1.3);
+   
+    -webkit-filter: grayscale(0%); 
+filter: grayscale(0%);
+  }
   h1{
     color: white;
   }
   #about{
     color:white;
   }
+
+
+  #pic1{
+    position: relative;
+    /* padding: 20px ; */
+    width:200px;
+    height:250px;
+    /* border-radius: 50px; */
+    z-index: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(Assets/Cinderella/01.png);
+    background-size: cover;
+    font-size: x-small;
+    margin-left: 40px;
+    
+  }
+  #pic1:hover{
+    background-image: url(Assets/Cinderella/01.png);
+   
+    transform: scale(1.1);
+    z-index: 1;
+    transition-duration: 1.5s;
+   
+   
+  /* border-style: dotted; */
+  }
+  
+  #pic2{
+    position: relative;
+    /* padding: 20px; */
+    width:200px;
+    height:250px;
+    /* border-radius: 50px; */
+    z-index: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(Assets/Cards/cardback.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: medium; 
+    margin-left: 40px;
+    
+  }
+  #pic2:hover{
+    background-image: url(Assets/Cards/cardback.PNG);
+    
+    transform: scale(1.1);
+    background-repeat: no-repeat;
+    z-index: 1;
+    transition-duration: 1.5s;
+  }
+  
+  #pic3{
+    position: relative;
+    /* padding: 20px; */
+    width:200px;
+    height:250px;
+    /* border-radius: 40px; */
+    z-index: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(Assets/Projects/11.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: medium;
+    margin-left: 40px;
+  }
+  #pic3:hover{
+    background-image: url(Assets/Projects/11.PNG);
+  
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+    z-index: 1;
+    transition-duration: 1.5s;
+    
+  }
+
+  
+  #pic5{
+    position: relative;
+    /* padding: 20px; */
+    width:200px;
+    height:250px;
+    /* border-radius: 50px; */
+    z-index: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(Assets/Projects/9.jpg);
+    background-size: cover;
+    
+    font-size: medium;
+    margin-left: 40px;
+    
+  }
+  #pic5:hover{
+    background-image: url(Assets/Projects/9.jpg);
+    
+   
+    transform: scale(1.1);
+    z-index: 1;
+    transition-duration: 1.5s;
+  }
+  
+   .text{
+     font-size: x-large;
+     background-color: rgb(245, 242, 223) ;
+    
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+    font-family: 'Bree Serif', serif;
+   }
+   #about{
+     font-size: xx-large;
+     font-family: 'Bree Serif', serif;
+   }
+   .projecty{
+     display:flex;
+     flex-direction: row;
+   }
