@@ -9,6 +9,7 @@
 
 body{
     background-color: black;
+    
 
 
 }
@@ -424,9 +425,11 @@ filter: grayscale(0%);
     text-align: justify;
     font-family: 'Bree Serif', serif;
    }
-   #about{
+   .about{
      font-size: xx-large;
      font-family: 'Bree Serif', serif;
+     color: white;
+    
    }
    .projecty{
      display:flex;
