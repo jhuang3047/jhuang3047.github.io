@@ -351,7 +351,7 @@ filter: grayscale(0%);
     height:250px;
     /* border-radius: 50px; */
     z-index: 0;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(Assets/Cards/cardback.PNG);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(Assets/Cards/cardback.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-size: medium; 
@@ -359,7 +359,7 @@ filter: grayscale(0%);
     
   }
   #pic2:hover{
-    background-image: url(Assets/Cards/cardback.PNG);
+    background-image: url(Assets/Cards/cardback.png);
     
     transform: scale(1.1);
     background-repeat: no-repeat;
@@ -374,7 +374,7 @@ filter: grayscale(0%);
     height:250px;
     /* border-radius: 40px; */
     z-index: 0;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(Assets/Projects/11.PNG);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url(Assets/Projects/11.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -382,7 +382,7 @@ filter: grayscale(0%);
     margin-left: 40px;
   }
   #pic3:hover{
-    background-image: url(Assets/Projects/11.PNG);
+    background-image: url(Assets/Projects/11.png);
   
     background-repeat: no-repeat;
     transform: scale(1.1);
