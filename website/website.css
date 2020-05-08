@@ -30,6 +30,15 @@ body{
   
   
 }
+@media screen and (max-width: 500px)
+{
+  .nav2{
+    
+    display:inline-block;
+  }
+  
+  
+}
 
 h1{
     text-align: center;
@@ -462,6 +471,20 @@ filter: grayscale(0%);
     
     
     }
+    @media screen and (max-width: 500px){
+    
+      .thisItem5 , .thisItem6 , .thisItem7 , .thisItem8 {
+        margin-top: 0px;
+        margin-left: 0px;
+      }
+      .projecty{
+        display: inline-block;
+        margin-left: 0px;
+      }
+      
+      
+      }
+      
   
    .dropbtn {
      background-color: black;
