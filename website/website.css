@@ -21,6 +21,15 @@ body{
        
         font-family: 'Bree Serif', serif;
 }
+@media screen and (max-width: 600px)
+{
+  .nav2{
+    
+    display:inline-block;
+  }
+  
+  
+}
 
 h1{
     text-align: center;
@@ -59,6 +68,7 @@ filter: grayscale(0%);
     animation-fill-mode: forwards; 
     margin-left:100px;
   margin-top:-100px;
+  position: relative;
 }
 .thisItem6{
   font-size: larger;
@@ -72,6 +82,7 @@ filter: grayscale(0%);
   animation-fill-mode: forwards; 
   margin-left:180px;
   margin-top:-90px;
+  position: relative;
 }
 .thisItem7{
   font-size: larger;
@@ -85,6 +96,7 @@ filter: grayscale(0%);
   animation-fill-mode: forwards; 
   margin-left:320px;
   margin-top:-80px;
+  position: relative;
 }
 .thisItem8{
   font-size: larger;
@@ -98,6 +110,7 @@ filter: grayscale(0%);
   animation-fill-mode: forwards; 
   margin-left: 415px;
   margin-top:-70px;
+  position: relative;
 }
 
 
@@ -435,3 +448,71 @@ filter: grayscale(0%);
      display:flex;
      flex-direction: row;
    }
+
+   @media screen and (max-width: 600px){
+    
+    .thisItem5 , .thisItem6 , .thisItem7 , .thisItem8 {
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+    .projecty{
+      display: inline-block;
+      margin-left: 0px;
+    }
+    
+    
+    }
+  
+   .dropbtn {
+     background-color: black;
+    padding: none;
+    border: none;
+    cursor: pointer;
+    float:right;
+    
+    
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: black;
+    border-color: black;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    float: right; 
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float:right;  
+    
+
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Bree Serif', serif;
+  }
+  
+  .dropdown a:hover {background-color: rgb(245, 242, 223);}
+  
+  .show {display: block;}
+
+  #divy {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  
