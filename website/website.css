@@ -441,7 +441,7 @@ filter: grayscale(0%);
    .text{
      font-size: x-large;
      background-color: rgb(245, 242, 223) ;
-    
+   padding: 5px;
     text-decoration: none;
     color: black;
     text-align: justify;
@@ -539,3 +539,7 @@ filter: grayscale(0%);
     margin: 6px 0;
   }
   
+  h2{
+    color: white ;
+    text-align: center;
+  }
